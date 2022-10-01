@@ -1,0 +1,55 @@
+.content {
+  min-height: 90vh;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+#packages {
+  width: 90%;
+  min-height: 400px;
+  background-color: white;
+  margin: 50px auto 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+  position:relative;
+}
+.pkgcol h3:hover {
+  cursor: pointer;
+  color:red;
+}
+
+.pkgimg:hover{
+    cursor:pointer;
+}
+
+.pkgrow {
+  width: 100%;
+  min-height: 49%;
+  background-color: rgba(255,255,0,0.52);
+  padding: 10px;
+  margin-bottom: 1%;
+  border-radius: 10px;
+  margin-left: 0px;
+}
+
+.pkgcol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+  .pkgcol h3,.filter {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+  }
+
+  .pkgcol p {
+    font-family: 'Architects Daughter', cursive;
+  }
+
+#pkgheading {
+  text-align: left;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}

@@ -1,0 +1,26 @@
+<app-employee-layout></app-employee-layout>
+<div class="content">
+  <div id="packages">
+    <h1 id="pkgheading">My Hotels</h1>
+    <div style="width:100%;height:330px;overflow-y:scroll;">
+      <div class="row pkgrow" *ngFor="let hotel of hotels">
+        <div class="col-md-5 col-12 pkgdelcol">
+          <p><span>Hotel Name:</span>&nbsp;&nbsp;&nbsp;{{hotel.hotelName}}</p>
+          <p><span>Hotel Rating:</span>&nbsp;&nbsp;&nbsp;{{hotel.hotelRating}}-star</p>
+          <p><span>Single Room Price:</span>&nbsp;&nbsp;&nbsp;&#8377;{{hotel.singleRoomPrice}}</p>
+        </div>
+        <div class="col-md-5 col-12 pkgdelcol">
+          <p><span>Double Room Price:</span>&nbsp;&nbsp;&nbsp;&#8377;{{hotel.doubleRoomPrice}}</p>
+          <p><span>Deluxe Room Price:</span>&nbsp;&nbsp;&nbsp;&#8377;{{hotel.deluxeeRoomPrice}}</p>
+          <p><span>Suite Room Price:</span>&nbsp;&nbsp;&nbsp;&#8377;{{hotel.suiteRoomPrice}}</p>
+        </div>
+        <div class="col-md-2 col-12 pkgdelcol" style="justify-content:space-around">
+          <img src="../assets/hotels.png" alt="image" class="img-thumbnail pkgimg" style="height:140px;width:100%;min-height:140px;" />
+        </div>
+      </div>
+      <div id="nohotel" [hidden]="hotels.length">
+        <h1>No hotels available...</h1>
+      </div>
+    </div>
+  </div>
+</div>

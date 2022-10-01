@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DbScripts", "DbScripts", "{7DF4D80A-A8FA-42C2-A134-E536E45FD2AE}"
+	ProjectSection(SolutionItems) = preProject
+		DB Script.sql = DB Script.sql
+		Infosys.TravelAway.Services\Startup.cs = Infosys.TravelAway.Services\Startup.cs
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infosys.TestApplication", "Infosys.TestApplication\Infosys.TestApplication.csproj", "{755E182B-E1ED-4DCF-9DE6-76F7B0C385C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infosys.TravelAway.DAL", "Infosys.TravelAway.DAL\Infosys.TravelAway.DAL.csproj", "{EE8AC389-CEFF-40A0-956A-C7B3A9B530A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infosys.TravelAway.Services", "Infosys.TravelAway.Services\Infosys.TravelAway.Services.csproj", "{48E50508-EF00-4CBC-B4FA-33F8F420A66A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infosys.TravelAway.BL", "Infosys.TravelAway.BL\Infosys.TravelAway.BL.csproj", "{AD711656-C22A-4588-9D43-4382D07EB538}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{755E182B-E1ED-4DCF-9DE6-76F7B0C385C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{755E182B-E1ED-4DCF-9DE6-76F7B0C385C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{755E182B-E1ED-4DCF-9DE6-76F7B0C385C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{755E182B-E1ED-4DCF-9DE6-76F7B0C385C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE8AC389-CEFF-40A0-956A-C7B3A9B530A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE8AC389-CEFF-40A0-956A-C7B3A9B530A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE8AC389-CEFF-40A0-956A-C7B3A9B530A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE8AC389-CEFF-40A0-956A-C7B3A9B530A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E50508-EF00-4CBC-B4FA-33F8F420A66A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E50508-EF00-4CBC-B4FA-33F8F420A66A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E50508-EF00-4CBC-B4FA-33F8F420A66A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E50508-EF00-4CBC-B4FA-33F8F420A66A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD711656-C22A-4588-9D43-4382D07EB538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD711656-C22A-4588-9D43-4382D07EB538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD711656-C22A-4588-9D43-4382D07EB538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD711656-C22A-4588-9D43-4382D07EB538}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E810776-CB30-4110-909F-2D8FF10166B0}
+	EndGlobalSection
+EndGlobal

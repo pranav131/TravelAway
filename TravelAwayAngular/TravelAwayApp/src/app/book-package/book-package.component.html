@@ -1,0 +1,54 @@
+<app-user-layout></app-user-layout>
+<div class="content">
+  <div class="bookpkg">
+    <h1 style="color:red;text-shadow:2px 2px 2px black;">Book Package</h1>
+
+    <form #bookForm="ngForm" (ngSubmit)="submitBookForm(bookForm)">
+      <div class="form-group">
+        <input type="text" name="contactNumber" placeholder="Contact Number" class="form-control forminputs" #contactNumberRef="ngModel" ngModel required pattern="[1-9]{1}[0-9]{9}" />
+      </div>
+      <div *ngIf="contactNumberRef.errors && (contactNumberRef.dirty || contactNumberRef.touched)" style="text-align:left;color:red;">
+        <div [hidden]="!contactNumberRef.errors.required">
+          <p>&nbsp;Contact is mandatory</p>
+        </div>
+        <div [hidden]="!contactNumberRef.errors.pattern">
+          <p>&nbsp;Contact number should be of 10 digits, 0 not as first digit.</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <textarea name="address" placeholder="Residential Address" class="form-control forminputs" #addressRef="ngModel" ngModel required></textarea>
+      </div>
+      <div *ngIf="addressRef.errors && (addressRef.dirty || addressRef.touched)" style="text-align:left;color:red;">
+        <div [hidden]="!addressRef.errors.required">
+          <p>&nbsp;Address is mandatory</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <input type="text" name="dateOfTravel" placeholder="Date of Travel" class="form-control forminputs" onfocus="(this.type='date')" #dotRef="ngModel" ngModel required />
+      </div>
+      <div *ngIf="dotRef.errors && (dotRef.dirty || dotRef.touched)" style="text-align:left; color:red;">
+        <div [hidden]="!dotRef.errors.required">
+          <p>&nbsp;Date of Travel is mandatory</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <input type="number" name="adults" placeholder="Number of adults" class="form-control forminputs" #adultRef="ngModel" ngModel required />
+      </div>
+      <div *ngIf="adultRef.errors && (adultRef.dirty || adultRef.touched)" style="text-align:left;color:red;">
+        <div [hidden]="!adultRef.errors.required">
+          <p>&nbsp;No. of Adults is mandatory</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <input type="number" name="children" placeholder="Number of children" class="form-control forminputs" #childrenRef="ngModel" ngModel required />
+      </div>
+      <div *ngIf="childrenRef.errors && (childrenRef.dirty || childrenRef.touched)" style="text-align:left;color:red;">
+        <div [hidden]="!childrenRef.errors.required">
+          <p>&nbsp;No. of children is mandatory</p>
+        </div>
+      </div>
+      <button type="submit" id="formsubmit" [disabled]="!bookForm.form.valid">Book now</button>
+    </form>
+  </div>
+</div>
+

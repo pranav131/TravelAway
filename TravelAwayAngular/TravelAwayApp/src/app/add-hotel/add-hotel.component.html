@@ -1,0 +1,102 @@
+<app-employee-layout></app-employee-layout>
+<div class="content">
+  <div class="addhotel">
+    <h1 style="color:red;text-shadow:2px 2px 2px black;margin-bottom:20px;">Add Hotel</h1>
+
+    <form #hotelForm="ngForm" (ngSubmit)="submithotelForm(hotelForm)">
+      <div class="row frow">
+        <div class="col-md-6">
+          <div class="form-group">
+            <input type="text" name="hotelname" placeholder="Hotel Name" class="form-control forminputs" #hotelRef="ngModel" ngModel required />
+          </div>
+          <div *ngIf="hotelRef.errors && (hotelRef.dirty || hotelRef.touched)" style="text-align:left;color:red;">
+            <div [hidden]="!hotelRef.errors.required">
+              <p>&nbsp;Hotel Name is mandatory</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <select class="form-control forminputs" name="hotelType" #hoteltypeRef="ngModel" ngModel required>
+              <option value="" disabled selected>Hotel Rating</option>
+              <option value="2">2-star</option>
+              <option value="3">3-star</option>
+              <option value="4">4-star</option>
+              <option value="5">5-star</option>
+            </select>
+          </div>
+          <div *ngIf="hoteltypeRef.errors && (hoteltypeRef.dirty || hoteltypeRef.touched)" style="text-align:left;color:red;">
+            <div [hidden]="!hoteltypeRef.errors.required">
+              <p>&nbsp;Hotel Rating is mandatory</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row frow">
+        <div class="col-md-6">
+          <div class="form-group">
+            <input type="number" name="singleprice" placeholder="Single Room Price (in INR)" class="form-control forminputs" #singleRef="ngModel" ngModel required />
+          </div>
+          <div *ngIf="singleRef.errors && (singleRef.dirty || singleRef.touched)" style="text-align:left;color:red;">
+            <div [hidden]="!singleRef.errors.required">
+              <p>&nbsp;Price is mandatory</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <input type="number" name="doubleprice" placeholder="Double Room Price (in INR)" class="form-control forminputs" #doubleRef="ngModel" ngModel required />
+          </div>
+          <div *ngIf="doubleRef.errors && (doubleRef.dirty || doubleRef.touched)" style="text-align:left;color:red;">
+            <div [hidden]="!doubleRef.errors.required">
+              <p>&nbsp;Price is mandatory</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row frow">
+        <div class="col-md-6">
+          <div class="form-group">
+            <input type="number" name="suiteprice" placeholder="Suite Price (in INR)" class="form-control forminputs" #suiteRef="ngModel" ngModel required />
+          </div>
+          <div *ngIf="suiteRef.errors && (suiteRef.dirty || suiteRef.touched)" style="text-align:left;color:red;">
+            <div [hidden]="!suiteRef.errors.required">
+              <p>&nbsp;Price is mandatory</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <input type="number" name="deluxeprice" placeholder="Deluxe Price (in INR)" class="form-control forminputs" #deluxeRef="ngModel" ngModel required />
+          </div>
+          <div *ngIf="deluxeRef.errors && (deluxeRef.dirty || deluxeRef.touched)" style="text-align:left;color:red;">
+            <div [hidden]="!deluxeRef.errors.required">
+              <p>&nbsp;Price is mandatory</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row frow">
+        <div class="col-12">
+          <div class="form-group">
+            <input type="text" name="city" placeholder="City Name" class="form-control forminputs" #cityRef="ngModel" ngModel required />
+          </div>
+          <div *ngIf="cityRef.errors && (cityRef.dirty || cityRef.touched)" style="text-align:left;color:red;">
+            <div [hidden]="!cityRef.errors.required">
+              <p>&nbsp;City is mandatory</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="submit" id="formsubmit" [disabled]="!hotelForm.form.valid">Add</button>
+      <div *ngIf="showDiv" style="color:red;text-align:center;">
+        <br />
+        {{msg}}
+      </div>
+    </form>
+  </div>
+</div>
+

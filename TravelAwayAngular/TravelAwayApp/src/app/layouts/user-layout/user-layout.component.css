@@ -1,0 +1,8 @@
+#nbar {
+  max-height: 10vh;
+}
+
+  #nbar a {
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: bold
+  }

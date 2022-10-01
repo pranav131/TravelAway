@@ -1,0 +1,18 @@
+<app-user-layout></app-user-layout>
+<div class="content">
+  <div class="inner-content">
+    <img src="./assets/customer-service.png" alt="cust service img" style="position:absolute;left:-30px;top:-30px;border-radius:40%;"/>
+    <h1 style="color:red;text-shadow:2px 2px 2px black;">Customer Care</h1>
+    <p>Thanks for writing us</p>
+    <form #compForm="ngForm" (ngSubmit)="submitCompForm(compForm)">
+      <div class="form-group">
+        <textarea name="query" placeholder="Enter your complaint here" class="form-control forminputs" #compRef="ngModel" ngModel required></textarea>
+      </div>
+      <button type="submit" id="formsubmit" [disabled]="!compForm.form.valid">Submit</button>
+      <div *ngIf="showDiv" style="color:red;text-align:center;margin-bottom:5px;">
+        {{msg}} !!
+      </div>
+    </form>
+  </div>
+</div>
+

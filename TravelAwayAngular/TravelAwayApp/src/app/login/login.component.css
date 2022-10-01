@@ -1,0 +1,39 @@
+.content {
+  min-height: 90vh;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+.login {
+  width: 30%;
+  min-width: 300px;
+  height: 300px;
+  min-height: 300px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: rgba(255, 255, 255,0.5);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.forminputs {
+  border: none;
+  border-radius: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+#formsubmit {
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: yellow;
+  box-shadow: 2px 2px 2px #000000;
+  font-size: 25px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}

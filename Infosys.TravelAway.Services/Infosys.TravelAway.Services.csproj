@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infosys.TravelAway.BL\Infosys.TravelAway.BL.csproj" />
+    <ProjectReference Include="..\Infosys.TravelAway.DAL\Infosys.TravelAway.DAL.csproj" />
+  </ItemGroup>
+
+
+</Project>

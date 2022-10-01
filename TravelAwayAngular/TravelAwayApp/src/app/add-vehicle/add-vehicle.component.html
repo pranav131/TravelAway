@@ -1,0 +1,62 @@
+<app-employee-layout></app-employee-layout>
+<div class="content">
+  <div class="addveh">
+    <h1 style="color:red;text-shadow:2px 2px 2px black;margin-bottom:10px;">Add Vehicle</h1>
+
+    <form #vehicleForm="ngForm" (ngSubmit)="submitvehicleForm(vehicleForm)">
+      <div class="form-group">
+        <input type="text" name="vehicleName" placeholder="Vehicle Name" class="form-control forminputs" #vehicleRef="ngModel" ngModel required />
+      </div>
+      <div *ngIf="vehicleRef.errors && (vehicleRef.dirty || vehicleRef.touched)" style="text-align:left;color:red;">
+        <div [hidden]="!vehicleRef.errors.required">
+          <p>&nbsp;Vehicle Name is mandatory</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <select class="form-control forminputs" name="vehicleType" #vehicletypeRef="ngModel" ngModel required>
+          <option value="" disabled selected>Vehicle Type</option>
+          <option value="Two-Wheeler">Two-Wheeler</option>
+          <option value="Four-Wheeler">Four-Wheeler</option>
+          <option value="Mini-Bus">Mini-Bus</option>
+        </select>
+      </div>
+      <div *ngIf="vehicletypeRef.errors && (vehicletypeRef.dirty || vehicletypeRef.touched)" style="text-align:left;color:red;">
+        <div [hidden]="!vehicletypeRef.errors.required">
+          <p>&nbsp;Vehicle Type is mandatory</p>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <input type="number" name="rateperhr" placeholder="Rate per hour" class="form-control forminputs" #ratehrRef="ngModel" ngModel required />
+      </div>
+      <div *ngIf="ratehrRef.errors && (ratehrRef.dirty || ratehrRef.touched)" style="text-align:left;color:red;">
+        <div [hidden]="!ratehrRef.errors.required">
+          <p>&nbsp;Rate is mandatory</p>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <input type="number" name="rateperkm" placeholder="Rate per km" class="form-control forminputs" #ratekmRef="ngModel" ngModel required />
+      </div>
+      <div *ngIf="ratekmRef.errors && (ratekmRef.dirty || ratekmRef.touched)" style="text-align:left;color:red;">
+        <div [hidden]="!ratekmRef.errors.required">
+          <p>&nbsp;Rate is mandatory</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <input type="number" name="basePrice" placeholder="Base Price" class="form-control forminputs" #basePriceRef="ngModel" ngModel required />
+      </div>
+      <div *ngIf="basePriceRef.errors && (basePriceRef.dirty || basePriceRef.touched)" style="text-align:left;color:red;">
+        <div [hidden]="!basePriceRef.errors.required">
+          <p>&nbsp;Base Price is mandatory</p>
+        </div>
+      </div>
+      <button type="submit" id="formsubmit" [disabled]="!vehicleForm.form.valid">Add</button>
+      <div *ngIf="showDiv" style="color:red;text-align:center;">
+        <br />
+        {{msg}}
+      </div>
+    </form>
+  </div>
+</div>
+

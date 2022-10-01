@@ -1,0 +1,84 @@
+<div *ngIf="commonLayout">
+  <app-common-layout></app-common-layout>
+</div>
+<div *ngIf="customerLayout">
+  <app-user-layout></app-user-layout>
+</div>
+<div class="content">
+  <div class="signup">
+    <h1 style="text-align:left">Edit Details</h1>
+    <form #updateForm="ngForm" (ngSubmit)="SubmitForm(updateForm)">
+      <div class="form-group" style="margin-top:20px;">
+        <input type="text" placeholder="First Name" name="firstName" value="{{firstName}}" class="form-control forminputs" #firstNameRef="ngModel" ngModel required pattern="[a-zA-z]{1,}" />
+      </div>
+      <div *ngIf="firstNameRef.errors && (firstNameRef.dirty || firstNameRef.touched)" style="text-align:left; color:red;">
+        <div [hidden]="!firstNameRef.errors.required">
+          <p>&nbsp;First Name is mandatory</p>
+        </div>
+        <div [hidden]="!firstNameRef.errors.pattern">
+          <p>&nbsp;First Name is not entered in proper format</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <input type="text" name="lastName" placeholder="Last Name"  value="{{lastName}}"  class="form-control forminputs" #lastNameRef="ngModel" ngModel required pattern="[a-zA-z]{1,}" />
+      </div>
+      <div *ngIf="lastNameRef.errors && (lastNameRef.dirty || lastNameRef.touched)" style="text-align:left;color:red;">
+        <div [hidden]="!lastNameRef.errors.required">
+          <p>&nbsp;Last Name is mandatory</p>
+        </div>
+        <div [hidden]="!lastNameRef.errors.pattern">
+          <p>&nbsp;Last Name is not entered in proper format</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <select class="form-control" name="gender" #genderRef="ngModel"  value="{{gender}}" ngModel required>
+          <option value="" disabled selected>Gender</option>
+          <option value="M">Male</option>
+          <option value="F">Female</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <input type="text" name="contactNumber" placeholder="Contact Number" value="{{contact}}" class="form-control forminputs" #contactNumberRef="ngModel" ngModel required pattern="[1-9]{1}[0-9]{9}" />
+      </div>
+      <div *ngIf="contactNumberRef.errors && (contactNumberRef.dirty || contactNumberRef.touched)" style="text-align:left;color:red;">
+        <div [hidden]="!contactNumberRef.errors.required">
+          <p>&nbsp;Contact is mandatory</p>
+        </div>
+        <div [hidden]="!contactNumberRef.errors.pattern">
+          <p>&nbsp;Contact number should be of 10 digits, 0 not as first digit.</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <input type="text" name="dateOfBirth" placeholder="Date of birth" value="{{dob}}" class="form-control forminputs" onfocus="(this.type='date')" #dobRef="ngModel" ngModel required />
+      </div>
+      <div *ngIf="dobRef.errors && (dobRef.dirty || dobRef.touched)" style="text-align:left; color:red;">
+        <div [hidden]="!dobRef.errors.required">
+          <p>&nbsp;Date of birth is mandatory</p>
+
+          <!--<p *ngIf="dobRef.errors?.dateError &&  dobRef.dirty" class="alert alert-danger">
+            {{dobRef.errors?.dateError.message}}
+          </p>-->
+
+
+
+        </div>
+      </div>
+
+      <div class="form-group">
+        <textarea placeholder="Address" name="address" class="form-control forminputs" value="{{Address}}" #addressRef="ngModel" ngModel required></textarea>
+      </div>
+      <div *ngIf="addressRef.errors && (addressRef.dirty || addressRef.touched)" style="text-align:left;color:red;">
+        <div [hidden]="!addressRef.errors.required">
+          <p>&nbsp;Address is mandatory</p>
+        </div>
+
+      </div>
+      <button type="submit" id="formsubmit">Update</button>
+      <div *ngIf="showDiv" style="color:red;text-align:center;">
+        <br />
+        {{msg}}
+      </div>
+    </form>
+  </div>
+</div>
+

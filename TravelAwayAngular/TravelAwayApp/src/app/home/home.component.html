@@ -1,0 +1,24 @@
+<div *ngIf="commonLayout">
+  <app-common-layout></app-common-layout>
+</div>
+<div *ngIf="customerLayout">
+  <app-user-layout></app-user-layout>
+</div>
+<div *ngIf="employeeLayout">
+  <app-employee-layout></app-employee-layout>
+</div>
+<div class="content">
+  <div class="inner-content">
+    <h1>TravelAway</h1>
+    <button routerLink="/viewPackages" *ngIf="(customerLayout||commonLayout)">View Packages</button>
+    <button routerLink="/addhotel" *ngIf="(employeeLayout)">Add Hotel</button>
+  </div>
+  <div id="footer">
+    <h2>Explore this beautiful world with us</h2>
+    <div id="social_media">
+      <i style="font-size:50px" class="fa">&#xf082;</i>
+      <i style="font-size:50px" class="fa">&#xf16d;</i>
+      <i style="font-size:50px" class="fa">&#xf081;</i>
+    </div>
+  </div>
+</div>

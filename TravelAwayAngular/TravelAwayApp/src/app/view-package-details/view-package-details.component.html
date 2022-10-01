@@ -1,0 +1,30 @@
+<div *ngIf="commonLayout">
+  <app-common-layout></app-common-layout>
+</div>
+<div *ngIf="customerLayout">
+  <app-user-layout></app-user-layout>
+</div>
+<div class="content">
+  <div id="packages">
+    <h1 id="pkgheading">Package Details: <span style="color:red;"> {{packageName}}</span></h1>
+    <div style="width:100%;height:330px;overflow-y:scroll;" >
+      <div class="row pkgrow" *ngFor="let packageDetail of packageDetails">
+        <div class="col-md-3 col-12 pkgdelcol">
+          <h5>Places to visit</h5>
+          <p>{{packageDetail.placesToVisit}}</p>
+        </div>
+        <div class="col-md-6 col-12 pkgdelcol">
+          <h5>Package Description</h5>
+          <p>{{packageDetail.description}}</p>
+        </div>
+        <div class="col-md-3 col-12 pkgdelcol">
+          <h5>Details</h5>
+          <p><span class="boldtext">Days/Nights: </span><span>{{packageDetail.noOfDays}} / {{packageDetail.noOfNights}}</span></p>
+          <p><span class="boldtext">Price: </span><span>{{packageDetail.pricePerAdult}}</span></p>
+          <p><span class="boldtext">Accomodation: </span><span>{{packageDetail.accomodation}}</span></p>
+          <button type="button" class="btn-primary" id="bookingbtn" (click)="navigateToBookPackage(packageDetail.packageDetailsId)">Book</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

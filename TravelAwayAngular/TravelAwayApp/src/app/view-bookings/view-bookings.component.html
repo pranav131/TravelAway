@@ -1,0 +1,29 @@
+<app-user-layout></app-user-layout>
+<div class="content">
+  <div id="packages">
+    <h1 id="pkgheading">My Bookings</h1>
+    <div style="width:100%;height:330px;overflow-y:scroll;">
+      <div class="row pkgrow" *ngFor="let booking of bookings">
+        <div class="col-md-5 col-12 pkgdelcol">
+          <p><span>Package:</span>&nbsp;&nbsp;&nbsp;{{booking.packageName}}</p>
+          <p><span>Places to visit:</span>&nbsp;&nbsp;&nbsp;{{booking.placesToVisit}}</p>
+          <p><span>Days/Nights:</span>&nbsp;&nbsp;&nbsp;{{booking.noOfDays}}/{{booking.noOfNights}}</p>
+          <p><span>Date of Travel:</span>&nbsp;&nbsp;&nbsp;{{booking.dateOfTravel}}</p>
+        </div>
+        <div class="col-md-5 col-12 pkgdelcol">
+          <p><span>Hotel:</span>&nbsp;&nbsp;&nbsp;<i *ngIf="booking.noOfRooms">{{booking.hotelName}} ({{booking.noOfRooms}} rooms)</i><i [hidden]="booking.noOfRooms">Not Booked</i></p>
+          <p><span>Total Adults/children:</span>&nbsp;&nbsp;&nbsp;{{booking.numberOfAdults}}/{{booking.numberOfChildren}}</p>
+          <p><span>Payment:</span>&nbsp;&nbsp;&nbsp;<i *ngIf="booking.totalAmount">&#8377;{{booking.totalAmount}}</i><i [hidden]="booking.totalAmount">Not Paid</i></p>
+        </div>
+        <div class="col-md-2 col-12 pkgdelcol" style="justify-content:space-around">
+          <button class="btn btn-primary btn-sm" [disabled]="booking.noOfRooms || booking.totalAmount" (click)="gohotelbook(booking.bookingId)"><span *ngIf="!booking.noOfRooms && !booking.totalAmount">Book hotel</span><span [hidden]="!booking.noOfRooms">Hotel Booked</span><span *ngIf="!booking.noOfRooms && booking.totalAmount">Hotel Not Booked</span></button>
+          <button class="btn btn-danger btn-sm" (click)="gocustcare(booking.bookingId)">Customer Care</button>
+          <button class="btn btn-success btn-sm" routerLink="/payment" [disabled]="booking.totalAmount" (click)="gopayment(booking.bookingId)"><span *ngIf="!booking.totalAmount">Make Payment</span><span [hidden]="!booking.totalAmount">Payment done</span></button>
+        </div>
+      </div>
+      <div id="nobooking" [hidden]="bookings.length">
+        <h1>No bookings available...</h1>
+      </div>
+    </div>
+  </div>
+</div>

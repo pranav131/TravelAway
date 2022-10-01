@@ -1,0 +1,11 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body {
+/*  background-color: skyblue !important;*/
+  background:url("/assets/img2.jpg") no-repeat center center;background-size:cover;
+  background-attachment:fixed;
+  min-height: 100vh;
+}

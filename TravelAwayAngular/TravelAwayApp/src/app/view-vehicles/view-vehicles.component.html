@@ -1,0 +1,26 @@
+<app-employee-layout></app-employee-layout>
+<div class="content">
+  <div id="packages">
+    <h1 id="pkgheading">My Vehicles</h1>
+    <div style="width:100%;height:330px;overflow-y:scroll;">
+      <div class="row pkgrow" *ngFor="let vehicle of vehicles">
+        <div class="col-md-5 col-12 pkgdelcol">
+          <p><span>Vehicle Name:</span>&nbsp;&nbsp;&nbsp;{{vehicle.vehicleName}}</p>
+          <p><span>Vehicle Type:</span>&nbsp;&nbsp;&nbsp;{{vehicle.vehicleType}}</p>
+          <p><span>Rate Per Km:</span>&nbsp;&nbsp;&nbsp;&#8377;{{vehicle.ratePerKm}}</p>
+        </div>
+        <div class="col-md-5 col-12 pkgdelcol">
+          <p><span>Rate Per Hour:</span>&nbsp;&nbsp;&nbsp;&#8377;{{vehicle.ratePerHour}}</p>
+          <p><span>Base Price:</span>&nbsp;&nbsp;&nbsp;&#8377;{{vehicle.basePrice}}</p>
+        </div>
+        <div class="col-md-2 col-12 pkgdelcol" style="justify-content:space-around">
+          <img src="../assets/car.png" alt="image" class="img-thumbnail pkgimg" style="height:140px;width:100%;min-height:140px;"/>
+        </div>
+      </div>
+      <div id="novehicle" [hidden]="vehicles.length">
+        <h1>No vehicles available...</h1>
+      </div>
+    </div>
+  </div>
+</div>
+

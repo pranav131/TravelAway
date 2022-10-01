@@ -1,0 +1,13 @@
+C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.DAL\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.DAL\bin\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.deps.json
+C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.DAL\bin\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.runtimeconfig.json
+C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.DAL\bin\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.runtimeconfig.dev.json
+C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.DAL\bin\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.dll
+C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.DAL\bin\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.pdb
+C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.DAL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.csprojAssemblyReference.cache
+C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.DAL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.AssemblyInfoInputs.cache
+C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.DAL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.AssemblyInfo.cs
+C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.DAL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.csproj.CoreCompileInputs.cache
+C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.DAL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.dll
+C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.DAL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.pdb
+C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.DAL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.genruntimeconfig.cache

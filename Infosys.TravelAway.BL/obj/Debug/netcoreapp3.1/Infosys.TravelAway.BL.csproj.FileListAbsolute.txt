@@ -1,0 +1,13 @@
+C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.BL\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.BL\bin\Debug\netcoreapp3.1\Infosys.TravelAway.BL.deps.json
+C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.BL\bin\Debug\netcoreapp3.1\Infosys.TravelAway.BL.dll
+C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.BL\bin\Debug\netcoreapp3.1\Infosys.TravelAway.BL.pdb
+C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.BL\bin\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.dll
+C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.BL\bin\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.pdb
+C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.BL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.BL.csprojAssemblyReference.cache
+C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.BL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.BL.AssemblyInfoInputs.cache
+C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.BL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.BL.AssemblyInfo.cs
+C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.BL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.BL.csproj.CoreCompileInputs.cache
+C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.BL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.BL.csproj.CopyComplete
+C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.BL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.BL.dll
+C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.BL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.BL.pdb

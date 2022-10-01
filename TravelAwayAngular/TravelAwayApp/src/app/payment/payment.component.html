@@ -1,0 +1,23 @@
+<app-user-layout></app-user-layout>
+<div class="content">
+  <div class="inner-content">
+    <h1 style="color:red;text-shadow:2px 2px 2px black;">Payment Gateway</h1>
+    <p>Complete the payment to confirm booking</p>
+    <form #payForm="ngForm" (ngSubmit)="submitpayForm(payForm)">
+      <label for="bookid" style="text-align:left;width:70%;margin:0 auto;margin-bottom:2px;">Booking ID</label>
+      <div class="form-group">
+        <input type="number" name="bookid" class="form-control forminputs" #bookRef="ngModel" ngModel [(ngModel)]="bookingId" readonly />
+      </div>
+      <label for="amount" style="text-align:left;width:70%;margin:0 auto;margin-bottom:2px;">Total Amount</label>
+      <div class="form-group">
+        <input type="text" name="amount" value="{{cost}}" class="form-control forminputs" #amountRef="ngModel" ngModel [(ngModel)]="total" readonly />
+      </div>
+      <button type="submit" id="formsubmit" [disabled]="!payForm.form.valid">Pay</button>
+      <div *ngIf="showDiv" style="color:red;text-align:center;">
+        <br />
+        {{msg}}
+      </div>
+    </form>
+  </div>
+</div>
+

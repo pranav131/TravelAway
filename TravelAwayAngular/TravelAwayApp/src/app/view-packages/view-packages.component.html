@@ -1,0 +1,38 @@
+<div *ngIf="commonLayout">
+  <app-common-layout></app-common-layout>
+</div>
+<div *ngIf="customerLayout">
+  <app-user-layout></app-user-layout>
+</div>
+<div class="content">
+  <div id="packages">
+    <h1 id="pkgheading">Packages</h1>
+    <div class="row" style="padding-bottom:5px;">
+      <div class="col-md-10 filter" style="text-align:right;">
+        <label>Filter packages:</label>
+      </div>
+      <div class="col-md-2 filter">
+        <select class="form-control" #categorydrop (change)="searchPackageByCategory(categorydrop.value)">
+          <option value="0">All Categories</option>
+          <option *ngFor="let category of categories" value={{category.packageCategoryId}}>
+            {{category.packageCategoryName}}
+          </option>
+        </select>
+      </div>
+    </div>
+    <div style="width:100%;height:330px;overflow-y:scroll;">
+      <div class="row pkgrow" *ngFor="let package of filteredPackages">
+        <div class="col-md-3 col-sm-4 col-0">
+          <img src="https://th.bing.com/th/id/OIP.aSSzMYglOpQp6JJBsJwVkQHaEK?pid=ImgDet&rs=1" alt="image" class="img-thumbnail pkgimg" style="height:140px;width:100%;min-height:140px;" (click)="viewPackageDetails(package.packageId,package.packageName)" />
+
+        </div>
+        <div class="col-md-9 col-sm-8 col-12 pkgcol">
+          <h3 (click)="viewPackageDetails(package.packageId,package.packageName)">{{package.packageName}}</h3>
+          <p>Explore the {{package.packageName}} with us! </p>
+          <!--<p>Description</p>-->
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

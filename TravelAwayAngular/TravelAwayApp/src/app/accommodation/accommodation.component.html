@@ -1,0 +1,106 @@
+<app-user-layout></app-user-layout>
+<div class="content">
+  <div class="accommodation">
+    <h1 style="color:red;text-shadow:2px 2px 2px black;margin-bottom:20px;">Accommodation</h1>
+
+    <form #accodForm="ngForm" (ngSubmit)="submitaccodForm(accodForm)">
+      <div class="row frow">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="bookingid">Booking ID</label>
+            <input type="text" name="bookingid" class="form-control forminputs" [(ngModel)]="bookingId" #bookingRef="ngModel" ngModel readonly/>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="city">City</label>
+            <select class="form-control forminputs" name="city" #cityRef="ngModel" ngModel required (change)="searchrating(cityRef.value)">
+              <option value="" disabled selected>City</option>
+              <option value="{{city}}" *ngFor="let city of cities">{{city}}</option>
+            </select>
+          </div>
+          <div *ngIf="cityRef.errors && (cityRef.dirty || cityRef.touched)" style="text-align:left;color:red;">
+            <div [hidden]="!cityRef.errors.required">
+              <p>&nbsp;City is mandatory</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row frow">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="rating">Hotel Rating</label>
+            <select class="form-control forminputs" name="rating" #ratingRef="ngModel" ngModel required (change)="searchhotel(ratingRef.value,cityRef.value)">
+              <option value="" disabled selected>Select hotel rating</option>
+              <option value="{{rating}}" *ngFor="let rating of ratings">{{rating}}-star</option>
+            </select>
+          </div>
+          <div *ngIf="ratingRef.errors && (ratingRef.dirty || ratingRef.touched)" style="text-align:left;color:red;">
+            <div [hidden]="!ratingRef.errors.required">
+              <p>&nbsp;Rating is mandatory</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="hotels">Hotel</label>
+            <select class="form-control forminputs" name="hotelName" #hotelRef="ngModel" ngModel required>
+              <option value="" disabled selected>Select hotel</option>
+              <option value="{{hotel}}" *ngFor="let hotel of hotels">{{hotel}}</option>
+            </select>
+          </div>
+          <div *ngIf="hotelRef.errors && (hotelRef.dirty || hotelRef.touched)" style="text-align:left;color:red;">
+            <div [hidden]="!hotelRef.errors.required">
+              <p>&nbsp;Hotel is mandatory</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row frow">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="roomtype">Room Type</label>
+            <select class="form-control forminputs" name="roomtype" #roomtypeRef="ngModel" ngModel required>
+              <option value="" disabled selected>Select Room type</option>
+              <option value="Single">Single Room</option>
+              <option value="Double">Double Room</option>
+              <option value="Deluxe">Deluxe Room</option>
+              <option value="Suite">Suite</option>
+            </select>
+          </div>
+          <div *ngIf="roomtypeRef.errors && (roomtypeRef.dirty || roomtypeRef.touched)" style="text-align:left;color:red;">
+            <div [hidden]="!roomtypeRef.errors.required">
+              <p>&nbsp;Room Type is mandatory</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="rooms">Number of Rooms</label>
+            <input type="number" name="rooms" class="form-control forminputs" #roomsRef="ngModel" ngModel required [(ngModel)]="rooms" (keyup)="getCost(hotelRef.value,roomtypeRef.value)" />
+          </div>
+          <div *ngIf="roomsRef.errors && (roomsRef.dirty || roomsRef.touched)" style="text-align:left;color:red;">
+            <div [hidden]="!roomsRef.errors.required">
+              <p>&nbsp;Number of rooms is mandatory</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row frow">
+        <div class="col-12 ">
+          <div class="form-group">
+            <label for="estimatedcost">Estimated Cost</label>
+            <input type="text" name="estimatedcost" class="form-control forminputs" #costRef="ngModel" ngModel [(ngModel)]="cost" required readonly/>
+          </div>
+          </div>
+
+        </div>
+        <button type="submit" id="formsubmit" [disabled]="!accodForm.form.valid">Add</button>
+</form>
+  </div>
+</div>
+

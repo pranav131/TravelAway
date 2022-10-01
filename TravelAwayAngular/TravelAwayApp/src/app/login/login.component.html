@@ -1,0 +1,35 @@
+<app-common-layout></app-common-layout>
+<div class="content">
+  <div class="login">
+    <h1 style="text-align:left">Login <span style="font-size:16px;"> as {{rolename}}</span></h1>
+    <form #loginForm="ngForm" (ngSubmit)="submitLoginForm(loginForm)">
+      <div class="form-group" style="margin-top:20px;">
+        <input type="email" placeholder="Email" name="email" class="form-control forminputs" #emailRef="ngModel" pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" ngModel required />
+      </div>
+      <div *ngIf="emailRef.errors && (emailRef.dirty || emailRef.touched)" style="text-align:left; padding-top:5px; color:red;">
+        <div [hidden]="!emailRef.errors.required">
+          <p>&nbsp;Email id is mandatory</p>
+        </div>
+        <div [hidden]="!emailRef.errors.pattern">
+          <p>&nbsp;Email id is not entered in proper format</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <input type="password" name="password" placeholder="Password" minlength="8" maxlength="16" class="form-control forminputs" #passwordRef="ngModel" ngModel required />
+      </div>
+      <div *ngIf="passwordRef.errors && (passwordRef.dirty || passwordRef.touched)" style="text-align:left; padding-top:5px; color:red;">
+        <div [hidden]="!passwordRef.errors.required">
+          <p>&nbsp;Password is mandatory</p>
+        </div>
+        <div [hidden]="!passwordRef.errors.minlength && !passwordRef.errors.maxlength">
+          <p>&nbsp;Password should be of proper length</p>
+        </div>
+      </div>
+      <button type="submit" id="formsubmit" [disabled]="!loginForm.form.valid">Go</button>
+      <div *ngIf="showDiv" style="color:red;text-align:center;">
+        <br />
+        {{msg}}
+      </div>
+    </form>
+  </div>
+  </div>

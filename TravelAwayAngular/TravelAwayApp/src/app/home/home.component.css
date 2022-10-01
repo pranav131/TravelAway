@@ -1,0 +1,53 @@
+.content {
+  min-height: 90vh;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.inner-content {
+  width: 50%;
+  height: 300px;
+  min-height: 300px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+/*.inner-content h1{
+    background-color:rgba(255, 255, 255,0.8);
+    border-radius:5px;
+}*/
+
+  .inner-content h1, #footer h2, .login h1, .signup h1 {
+    font-family: 'Architects Daughter', cursive;
+  }
+
+  .inner-content h1 {
+    letter-spacing: 1px;
+  }
+  .inner-content button {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 5px 5px 4px #000000;
+  }
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+#social_media i {
+  margin: 8px;
+}
