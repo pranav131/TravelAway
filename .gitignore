@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Infosys.TestApplication/obj/Release/netcoreapp3.1
+/Infosys.TestApplication/obj/Debug/netcoreapp3.1

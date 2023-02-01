@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mayank.sharma27\\Source\\Repos\\FEB21SET1CSMSRT1AGROUP01\\Infosys.TravelAwayApplication\\Infosys.TravelAway.Services\\Infosys.TravelAway.Services.csproj": {}
+    "E:\\Angular\\TravelAway\\TravelAway\\Infosys.TravelAway.Services\\Infosys.TravelAway.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mayank.sharma27\\Source\\Repos\\FEB21SET1CSMSRT1AGROUP01\\Infosys.TravelAwayApplication\\Infosys.TravelAway.BL\\Infosys.TravelAway.BL.csproj": {
+    "E:\\Angular\\TravelAway\\TravelAway\\Infosys.TravelAway.BL\\Infosys.TravelAway.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mayank.sharma27\\Source\\Repos\\FEB21SET1CSMSRT1AGROUP01\\Infosys.TravelAwayApplication\\Infosys.TravelAway.BL\\Infosys.TravelAway.BL.csproj",
+        "projectUniqueName": "E:\\Angular\\TravelAway\\TravelAway\\Infosys.TravelAway.BL\\Infosys.TravelAway.BL.csproj",
         "projectName": "Infosys.TravelAway.BL",
-        "projectPath": "C:\\Users\\mayank.sharma27\\Source\\Repos\\FEB21SET1CSMSRT1AGROUP01\\Infosys.TravelAwayApplication\\Infosys.TravelAway.BL\\Infosys.TravelAway.BL.csproj",
-        "packagesPath": "C:\\Users\\mayank.sharma27\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mayank.sharma27\\Source\\Repos\\FEB21SET1CSMSRT1AGROUP01\\Infosys.TravelAwayApplication\\Infosys.TravelAway.BL\\obj\\",
+        "projectPath": "E:\\Angular\\TravelAway\\TravelAway\\Infosys.TravelAway.BL\\Infosys.TravelAway.BL.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "E:\\Angular\\TravelAway\\TravelAway\\Infosys.TravelAway.BL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mayank.sharma27\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,9 +26,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\mayank.sharma27\\Source\\Repos\\FEB21SET1CSMSRT1AGROUP01\\Infosys.TravelAwayApplication\\Infosys.TravelAway.DAL\\Infosys.TravelAway.DAL.csproj": {
-                "projectPath": "C:\\Users\\mayank.sharma27\\Source\\Repos\\FEB21SET1CSMSRT1AGROUP01\\Infosys.TravelAwayApplication\\Infosys.TravelAway.DAL\\Infosys.TravelAway.DAL.csproj"
+              "E:\\Angular\\TravelAway\\TravelAway\\Infosys.TravelAway.DAL\\Infosys.TravelAway.DAL.csproj": {
+                "projectPath": "E:\\Angular\\TravelAway\\TravelAway\\Infosys.TravelAway.DAL\\Infosys.TravelAway.DAL.csproj"
               }
             }
           }
@@ -41,6 +42,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -56,21 +58,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.409\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mayank.sharma27\\Source\\Repos\\FEB21SET1CSMSRT1AGROUP01\\Infosys.TravelAwayApplication\\Infosys.TravelAway.DAL\\Infosys.TravelAway.DAL.csproj": {
+    "E:\\Angular\\TravelAway\\TravelAway\\Infosys.TravelAway.DAL\\Infosys.TravelAway.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mayank.sharma27\\Source\\Repos\\FEB21SET1CSMSRT1AGROUP01\\Infosys.TravelAwayApplication\\Infosys.TravelAway.DAL\\Infosys.TravelAway.DAL.csproj",
+        "projectUniqueName": "E:\\Angular\\TravelAway\\TravelAway\\Infosys.TravelAway.DAL\\Infosys.TravelAway.DAL.csproj",
         "projectName": "Infosys.TravelAway.DAL",
-        "projectPath": "C:\\Users\\mayank.sharma27\\Source\\Repos\\FEB21SET1CSMSRT1AGROUP01\\Infosys.TravelAwayApplication\\Infosys.TravelAway.DAL\\Infosys.TravelAway.DAL.csproj",
-        "packagesPath": "C:\\Users\\mayank.sharma27\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mayank.sharma27\\Source\\Repos\\FEB21SET1CSMSRT1AGROUP01\\Infosys.TravelAwayApplication\\Infosys.TravelAway.DAL\\obj\\",
+        "projectPath": "E:\\Angular\\TravelAway\\TravelAway\\Infosys.TravelAway.DAL\\Infosys.TravelAway.DAL.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "E:\\Angular\\TravelAway\\TravelAway\\Infosys.TravelAway.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mayank.sharma27\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,6 +84,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -93,6 +96,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -132,21 +136,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.409\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mayank.sharma27\\Source\\Repos\\FEB21SET1CSMSRT1AGROUP01\\Infosys.TravelAwayApplication\\Infosys.TravelAway.Services\\Infosys.TravelAway.Services.csproj": {
+    "E:\\Angular\\TravelAway\\TravelAway\\Infosys.TravelAway.Services\\Infosys.TravelAway.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mayank.sharma27\\Source\\Repos\\FEB21SET1CSMSRT1AGROUP01\\Infosys.TravelAwayApplication\\Infosys.TravelAway.Services\\Infosys.TravelAway.Services.csproj",
+        "projectUniqueName": "E:\\Angular\\TravelAway\\TravelAway\\Infosys.TravelAway.Services\\Infosys.TravelAway.Services.csproj",
         "projectName": "Infosys.TravelAway.Services",
-        "projectPath": "C:\\Users\\mayank.sharma27\\Source\\Repos\\FEB21SET1CSMSRT1AGROUP01\\Infosys.TravelAwayApplication\\Infosys.TravelAway.Services\\Infosys.TravelAway.Services.csproj",
-        "packagesPath": "C:\\Users\\mayank.sharma27\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mayank.sharma27\\Source\\Repos\\FEB21SET1CSMSRT1AGROUP01\\Infosys.TravelAwayApplication\\Infosys.TravelAway.Services\\obj\\",
+        "projectPath": "E:\\Angular\\TravelAway\\TravelAway\\Infosys.TravelAway.Services\\Infosys.TravelAway.Services.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "E:\\Angular\\TravelAway\\TravelAway\\Infosys.TravelAway.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mayank.sharma27\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -158,12 +162,13 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\mayank.sharma27\\Source\\Repos\\FEB21SET1CSMSRT1AGROUP01\\Infosys.TravelAwayApplication\\Infosys.TravelAway.BL\\Infosys.TravelAway.BL.csproj": {
-                "projectPath": "C:\\Users\\mayank.sharma27\\Source\\Repos\\FEB21SET1CSMSRT1AGROUP01\\Infosys.TravelAwayApplication\\Infosys.TravelAway.BL\\Infosys.TravelAway.BL.csproj"
+              "E:\\Angular\\TravelAway\\TravelAway\\Infosys.TravelAway.BL\\Infosys.TravelAway.BL.csproj": {
+                "projectPath": "E:\\Angular\\TravelAway\\TravelAway\\Infosys.TravelAway.BL\\Infosys.TravelAway.BL.csproj"
               },
-              "C:\\Users\\mayank.sharma27\\Source\\Repos\\FEB21SET1CSMSRT1AGROUP01\\Infosys.TravelAwayApplication\\Infosys.TravelAway.DAL\\Infosys.TravelAway.DAL.csproj": {
-                "projectPath": "C:\\Users\\mayank.sharma27\\Source\\Repos\\FEB21SET1CSMSRT1AGROUP01\\Infosys.TravelAwayApplication\\Infosys.TravelAway.DAL\\Infosys.TravelAway.DAL.csproj"
+              "E:\\Angular\\TravelAway\\TravelAway\\Infosys.TravelAway.DAL\\Infosys.TravelAway.DAL.csproj": {
+                "projectPath": "E:\\Angular\\TravelAway\\TravelAway\\Infosys.TravelAway.DAL\\Infosys.TravelAway.DAL.csproj"
               }
             }
           }
@@ -176,6 +181,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -194,7 +200,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.409\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
         }
       }
     }

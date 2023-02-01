@@ -11,3 +11,17 @@ C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwa
 C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.BL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.BL.csproj.CopyComplete
 C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.BL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.BL.dll
 C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.BL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.BL.pdb
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.BL\bin\Debug\netcoreapp3.1\appsettings.json
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.BL\bin\Debug\netcoreapp3.1\Infosys.TravelAway.BL.deps.json
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.BL\bin\Debug\netcoreapp3.1\Infosys.TravelAway.BL.dll
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.BL\bin\Debug\netcoreapp3.1\Infosys.TravelAway.BL.pdb
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.BL\bin\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.dll
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.BL\bin\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.pdb
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.BL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.BL.csproj.AssemblyReference.cache
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.BL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.BL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.BL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.BL.AssemblyInfoInputs.cache
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.BL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.BL.AssemblyInfo.cs
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.BL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.BL.csproj.CoreCompileInputs.cache
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.BL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.BL.csproj.CopyComplete
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.BL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.BL.dll
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.BL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.BL.pdb

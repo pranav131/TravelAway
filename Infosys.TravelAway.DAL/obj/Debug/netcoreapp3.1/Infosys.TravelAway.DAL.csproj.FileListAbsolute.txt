@@ -11,3 +11,17 @@ C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwa
 C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.DAL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.dll
 C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.DAL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.pdb
 C:\Users\mayank.sharma27\Source\Repos\FEB21SET1CSMSRT1AGROUP01\Infosys.TravelAwayApplication\Infosys.TravelAway.DAL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.genruntimeconfig.cache
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\bin\Debug\netcoreapp3.1\appsettings.json
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\bin\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.deps.json
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\bin\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.runtimeconfig.json
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\bin\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.runtimeconfig.dev.json
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\bin\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.dll
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\bin\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.pdb
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.csproj.AssemblyReference.cache
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.AssemblyInfoInputs.cache
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.AssemblyInfo.cs
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.csproj.CoreCompileInputs.cache
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.dll
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.pdb
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\obj\Debug\netcoreapp3.1\Infosys.TravelAway.DAL.genruntimeconfig.cache

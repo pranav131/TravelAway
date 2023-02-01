@@ -1,0 +1,14 @@
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\bin\Release\netcoreapp3.1\appsettings.json
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\bin\Release\netcoreapp3.1\Infosys.TravelAway.DAL.deps.json
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\bin\Release\netcoreapp3.1\Infosys.TravelAway.DAL.runtimeconfig.json
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\bin\Release\netcoreapp3.1\Infosys.TravelAway.DAL.runtimeconfig.dev.json
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\bin\Release\netcoreapp3.1\Infosys.TravelAway.DAL.dll
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\bin\Release\netcoreapp3.1\Infosys.TravelAway.DAL.pdb
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\obj\Release\netcoreapp3.1\Infosys.TravelAway.DAL.csproj.AssemblyReference.cache
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\obj\Release\netcoreapp3.1\Infosys.TravelAway.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\obj\Release\netcoreapp3.1\Infosys.TravelAway.DAL.AssemblyInfoInputs.cache
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\obj\Release\netcoreapp3.1\Infosys.TravelAway.DAL.AssemblyInfo.cs
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\obj\Release\netcoreapp3.1\Infosys.TravelAway.DAL.csproj.CoreCompileInputs.cache
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\obj\Release\netcoreapp3.1\Infosys.TravelAway.DAL.dll
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\obj\Release\netcoreapp3.1\Infosys.TravelAway.DAL.pdb
+E:\Angular\TravelAway\TravelAway\Infosys.TravelAway.DAL\obj\Release\netcoreapp3.1\Infosys.TravelAway.DAL.genruntimeconfig.cache
